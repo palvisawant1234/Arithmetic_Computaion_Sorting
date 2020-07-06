@@ -29,3 +29,9 @@ arr[0]=${Computation[1]}
 arr[1]=${Computation[2]}
 arr[2]=${Computation[3]}
 arr[3]=${Computation[4]}
+
+echo -n "descending sorted array is: "
+readarray -t descendSortedArr < <(printf '%s\n' "${arr[@]}" | sort -r --numeric-sort)
+echo "${descendSortedArr[@]}"
+
+
