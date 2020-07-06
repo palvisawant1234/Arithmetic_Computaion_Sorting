@@ -9,3 +9,6 @@ read  c
 
 Compute1=$(($a + $b * $c))
 echo $Compute1
+
+Compute2=$(($a * $b + $c))
+echo $Compute2
