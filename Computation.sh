@@ -24,3 +24,8 @@ Computation[1]=$Compute1
 Computation[2]=$Compute2
 Computation[3]=$Compute3
 Computation[4]=$Compute4
+
+arr[0]=${Computation[1]}
+arr[1]=${Computation[2]}
+arr[2]=${Computation[3]}
+arr[3]=${Computation[4]}
