@@ -18,3 +18,9 @@ echo "c + a / b = $Compute3"
 
 Compute4=`echo $a $b $c | awk '{print '$a' % '$b' + '$c' }'`
 echo "a % b + c = $Compute4"
+
+declare -A Computation
+Computation[1]=$Compute1
+Computation[2]=$Compute2
+Computation[3]=$Compute3
+Computation[4]=$Compute4
