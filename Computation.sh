@@ -34,4 +34,6 @@ echo -n "descending sorted array is: "
 readarray -t descendSortedArr < <(printf '%s\n' "${arr[@]}" | sort -r --numeric-sort)
 echo "${descendSortedArr[@]}"
 
-
+echo -n "ascending sorted array is: "
+readarray -t ascendSortedArr < <(printf '%s\n' "${arr[@]}" | sort --numeric-sort)
+echo "${ascendSortedArr[@]}"
